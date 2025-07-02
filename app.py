@@ -5,9 +5,15 @@ app=Flask(__name__)
 
 import string
 import nltk
+import nltk
+
+nltk.download('stopwords')
 nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+
+import nltk
+
 
 stemmer= SnowballStemmer('english')
 
