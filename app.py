@@ -8,11 +8,9 @@ import nltk
 import nltk
 
 nltk.download('stopwords')
-nltk.download('punkt_tab')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
-
-import nltk
 
 
 stemmer= SnowballStemmer('english')
